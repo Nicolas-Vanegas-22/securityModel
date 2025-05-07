@@ -104,7 +104,7 @@ namespace Web.Controllers
             {
                 _logger.LogError(ex, "Error al crear permiso");
                 return StatusCode(500, new { message = ex.Message });
-                // hola
+
             }
         }
     }
